@@ -1,0 +1,94 @@
+body{
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 5px groove;
+    border-color: lawngreen;
+    border-radius: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(bg3.jpg);
+    background-repeat:repeat-y;
+    background-size: 100%;
+    
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration:double;
+    border:1px solid whitesmoke;
+    margin: auto;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+}
+.name{
+    color:lawngreen; 
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+     border: 2px dotted white;
+     border-radius: 5px;
+     text-decoration: none;
+}
+h4{
+    color: honeydew;
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+}
+.parent{
+    margin: 10px;
+    padding:10px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    overflow:hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.child1{
+    margin: 5px;
+    padding: 5px;
+    border: 2px groove snow;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(whitesmoke, snow,rgba(0, 0, 0, 0.562));
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.child2{
+    margin: 5px;
+    padding: 5px;
+    border: 2px groove snow;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(45deg,snow,whitesmoke,rgba(0, 0, 0, 0.603));
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+div{
+    text-align: center;
+    font-weight: bolder;
+    align-content: center;
+}
+a:link, a:visited {
+    background-color:whitesmoke;
+    color:black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    margin: auto;
+}
+a:hover, a:active {
+    background-color: lawngreen;
+  }
